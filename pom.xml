@@ -34,6 +34,21 @@
             <artifactId>spring-webmvc</artifactId>
             <version>5.0.11.RELEASE</version>
         </dependency>
+        <!-- Spring JDBC -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>5.0.11.RELEASE</version>
+        </dependency>
+
+
+        <!-- Spring AOP -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>5.0.11.RELEASE</version>
+        </dependency>
+
 
         <!-- MyBatis -->
         <dependency>
@@ -70,6 +85,26 @@
             <artifactId>javax.servlet-api</artifactId>
             <version>3.1.0</version>
         </dependency>
+
+        <!-- fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.32</version>
+        </dependency>
+
+
+
+        <!--简化实例类的开发 可以少写 get set 方法
+         需要结合 插件实用 搜索lombok
+        -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.6</version>
+            <scope>provided</scope>
+        </dependency>
+
 
     </dependencies>
 
