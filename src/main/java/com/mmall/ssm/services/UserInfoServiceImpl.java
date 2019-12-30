@@ -17,15 +17,16 @@ import java.util.Map;
 public class UserInfoServiceImpl implements UserInfoService {
 
 
-/*    @Autowired
-    UserInfoRepository userInfoRepository;*/
+    @Autowired
+    UserInfoRepository userInfoRepository;
 
 
     @Override
     public List<UserInfo> getUserInfo() {
-//        List<UserInfo> all = userInfoRepository.findAll();
+        List<UserInfo> all = userInfoRepository.findAll();
 
-        return null;
+
+        return all;
     }
 
 

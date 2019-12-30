@@ -19,6 +19,7 @@
     </bean>
 
 
+
     <!--配置mybatis 的 SqlSessionFactory -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <!--指定数据源-->

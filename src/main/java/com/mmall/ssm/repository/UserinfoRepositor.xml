@@ -2,7 +2,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.mmall.ssm.repository.UserInfoRepository">
 
-    <insert id="add" parameterType="com.mmall.batis.pojo.UserInfo">
+    <insert id="add" parameterType="com.mmall.ssm.entity.UserInfo">
         insert into mmall_userinfo(id,uname,email,address,mobile)VALUES ("1",#{userName},#{email},#{address},#{mobile});
     </insert>
  <insert id="deleteById" parameterType="java.lang.String">
